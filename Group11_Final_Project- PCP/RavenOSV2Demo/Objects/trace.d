@@ -1,0 +1,11 @@
+.\objects\trace.o: RTE\RTOS\Source\trace.c
+.\objects\trace.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\trace.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\trace.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\trace.o: .\RTE\RTOS\Include\trace.h
+.\objects\trace.o: D:\Keil_v5\ARM\PACK\CU_SYSC4906\LabF14_DFP\1.0.7\Device\CU\Include\TM4C123\CU_TM4C123.h
+.\objects\trace.o: D:\Keil_v5\ARM\PACK\CU_SYSC4906\LabF14_DFP\1.0.7\Device\CU\Include\TM4C123\CU_TM4C123GH6PM.h
+.\objects\trace.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm4.h
+.\objects\trace.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h
+.\objects\trace.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h
+.\objects\trace.o: D:\Keil_v5\ARM\PACK\CU_SYSC4906\LabF14_DFP\1.0.7\Device\CU\Include\TM4C123\CU_system_TM4C123.h

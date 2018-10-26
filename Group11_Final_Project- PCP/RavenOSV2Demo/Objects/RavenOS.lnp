@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp
+".\objects\retarget.o"
+".\objects\peripherals.o"
+".\objects\trace.o"
+".\objects\kernel.o"
+".\objects\threads.o"
+".\objects\semaphores.o"
+".\objects\threadidle.o"
+".\objects\protectedtrace.o"
+".\objects\main.o"
+".\objects\sem1.o"
+".\objects\thread1.o"
+".\objects\thread3.o"
+".\objects\thread2.o"
+".\objects\thread4.o"
+".\objects\sem2.o"
+".\objects\sem3.o"
+".\objects\thread5.o"
+".\objects\sem4.o"
+".\objects\timers.o"
+".\objects\pcp_resource1.o"
+".\objects\pcp_resource2.o"
+".\objects\usart_tm4c123.o"
+".\objects\cu_system_tm4c123.o"
+".\objects\startup_tm4c123.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\RavenOS.map" -o .\Objects\RavenOS.axf

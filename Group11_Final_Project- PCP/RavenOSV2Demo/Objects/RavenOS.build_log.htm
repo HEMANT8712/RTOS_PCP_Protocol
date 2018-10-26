@@ -1,0 +1,123 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: HEMANT GUPTA, Microsoft, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.24.1
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+D:\Documents\Group11_Final_Project- PCP\RavenOSV2Demo\RavenOSV2Demo.uvprojx
+Project File Date:  12/06/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'RavenOS Demo'
+creating preprocessor file for retarget.c...
+creating preprocessor file for peripherals.c...
+creating preprocessor file for trace.c...
+creating preprocessor file for kernel.c...
+creating preprocessor file for threads.c...
+creating preprocessor file for semaphores.c...
+creating preprocessor file for threadIdle.c...
+creating preprocessor file for protectedTrace.c...
+creating preprocessor file for main.c...
+creating preprocessor file for sem1.c...
+creating preprocessor file for thread1.c...
+creating preprocessor file for thread3.c...
+creating preprocessor file for thread2.c...
+creating preprocessor file for thread4.c...
+creating preprocessor file for sem2.c...
+creating preprocessor file for sem3.c...
+creating preprocessor file for thread5.c...
+creating preprocessor file for sem4.c...
+creating preprocessor file for timers.c...
+creating preprocessor file for PCP_resource1.c...
+creating preprocessor file for PCP_resource2.c...
+creating preprocessor file for USART_TM4C123.c...
+creating preprocessor file for CU_system_TM4C123.c...
+linking...
+Program Size: Code=11036 RO-data=2044 RW-data=464 ZI-data=6824  
+FromELF: creating hex file...
+".\Objects\RavenOS.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+   * Component: USART Version: 2.3.0
+
+Package Vendor: CU_SYSC4906
+                http://www.sce.carleton.ca/CU_SYSC4906.LabF14_DFP.1.0.7.pack
+                CU_SYSC4906.LabF14_DFP.1.0.7
+                Support for SYSC4906 Lab
+   * Component: Startup Version: 1.0.0
+
+Package Vendor: RavenOS
+                https://github.com/rozmov/RavenOS/tree/master/Packs/RavenOS.TM4C123GH6PM_UART.1.0.2.pack
+                RavenOS.TM4C123GH6PM_UART.1.0.2
+                Tiva C Series TM4C123 UART Driver
+   * Component: TM4C123GH6PM Version: 2.01
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\CMSIS_Driver\TM4C123GH6PM
+  .\RTE\Device\TM4C123GH6PM
+  .\RTE\_RavenOS_Demo
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Driver\Include
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\CU_SYSC4906\LabF14_DFP\1.0.7\Device\CU\Include\TM4C123
+  D:\Keil_v5\ARM\PACK\RavenOS\TM4C123GH6PM_UART\1.0.2\RTE\CMSIS\Driver\Config
+  D:\Keil_v5\ARM\PACK\RavenOS\TM4C123GH6PM_UART\1.0.2\RTE\CMSIS\Driver\Config\driverlib
+  D:\Keil_v5\ARM\PACK\RavenOS\TM4C123GH6PM_UART\1.0.2\RTE\CMSIS\Driver\Config\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: RavenOS::CMSIS Driver:USART:TM4C123GH6PM:2.01
+      Include file:  RTE\CMSIS\Driver\Config\inc\hw_ints.h
+      Include file:  RTE\CMSIS\Driver\Config\inc\hw_gpio.h
+      Include file:  RTE\CMSIS\Driver\Config\inc\hw_types.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\debug.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\fpu.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\gpio.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\interrupt.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\pin_map.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\rom.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\sysctl.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\uart.h
+      Include file:  RTE\CMSIS\Driver\Config\driverlib\rom_map.h
+      Include file:  RTE\CMSIS\Driver\Config\RTE_Device.h
+      Include file:  RTE\CMSIS\Driver\USART_TM4C123.h
+      Source file:   RTE\CMSIS\Driver\USART_TM4C123.c
+
+   * Component: CU_SYSC4906::Device:Startup:1.0.0
+      Include file:  Device\CU\Include\TM4C123\CU_TM4C123.h
+      Include file:  Device\CU\Include\TM4C123\CU_TM4C123GH6PM.h
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+      Source file:   Device\CU\Source\TM4C123\CU_system_TM4C123.c
+      Include file:  Device\CU\Include\TM4C123\CU_system_TM4C123.h
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+
+   * Component: ::CMSIS Driver:USART:2.3.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
